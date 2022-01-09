@@ -1,0 +1,72 @@
+/* CSS Document */
+
+/*邮件页面中间显示样式*/
+
+@charset "utf-8";
+*{ margin:0px; padding:0px; border:0px;}
+html,body{ font:12px/1.8 Arial; color:#666; }
+body, div, dl, dt, dd, ul, ol, li,h1, h2, h3, h4, h5, h6, pre, code,form, fieldset, legend, input, button,p, blockquote, th, td {margin: 0;padding: 0;}
+a{ color:#666;text-decoration:none; }
+a:hover{ color:#0058b2;}
+ul{ list-style:none;}
+.clear{ clear:both;}
+img {border: 0;}
+body{background-color:#FFF;margin:5px auto;}
+.banner{width:698px; clear:both;}
+
+.web_top{margin:0 auto;clear:both;width:698px; font-size:11px; font-family: Arial, Helvetica, sans-serif; line-height:normal;}
+.web_mid{margin:0 auto;clear:both; width:698px; border: 1px solid #7FB521;font-size:11px; font-family: Arial, Helvetica, sans-serif; line-height:normal;}
+
+.outerbox {padding-top: 5px; padding-bottom:0px; margin-top:0px; margin-bottom:0px;}
+.outerbox a{ color:#0000CC;}
+.outerbox a:hover{ color:#0000CC; text-decoration:underline;}
+.outerbox span {color: #FFF;font-size: 11px;font-weight: bold;text-transform: capitalize;text-align: left;width: auto; padding-left:5px; margin:0px 0px; border-bottom: 1px solid #7FB521;display: block;background:url(../image/h1_250.gif) no-repeat 0px 0px;}
+.outerbox span a{ color:#FFF;}
+.outerbox span a:hover{ color:#FF6600; text-decoration:underline;}
+
+.outerbox th{color: #FFF;font-size: 11px;font-weight: bold;text-transform: capitalize;}  /*显示表格第一行的标题字为白色*/
+.outerbox p{ margin-top:0; margin-bottom:10px;margin-left:0px; padding-left:5px; padding-top:5px;}
+.outerbox ul {margin-top:5px;margin-bottom:5px; padding-left:5px; }
+.outerbox li {padding-top:2px;}
+
+.outerbox h1{color: #FFF;font-size: 11px;font-weight: bold;text-transform: capitalize;text-align: left;width: auto; padding-left:5px; margin:0px 0px; border-bttom: 1px solid #7FB521;display: block;background-color:#7FB521;}     /*background:url(../image/h1_Back.gif) repeat 0px 0px;*/
+.outerbox h1 a{ color:#FFF;}
+.outerbox h1 a:hover{ color:#FF6600; text-decoration:underline;}
+.outerbox .show1{width: 140px;border: 4px solid #7FB521;float:left;margin-bottom: 10px;margin-left: 20px; border-radius: 12px 12px 5px 5px;}  /*显示主页目录导航样式*/
+.show1 img{text-align:center;width:140px; height:68px; padding: 0px; margin-top:10px;} 
+.show1_title{ height:20px; line-height:20px; text-align:center; font-size: 11px;font-weight: bold;text-transform: capitalize; padding: 10px 0 10px 0; background-color:#FFFFFF;}
+.show1_title a{ font-size:13px;font-weight:bold;color:#FFF;}
+.show1_title a:hover{ text-decoration:none;color:#FF6600;font-size:14px;}
+.show1 h2{border-top: 4px solid #FFF;height:80; text-align:left; background-color:#FFFFFF; padding: 5px 2px 5px 2px;color: #666;font-size: 10px; font-style:normal;text-transform: capitalize;} 
+.show1 h2 a{ color:#28609a;font-size:9px; font-weight:normal; }
+.show1 h2 a:hover{text-decoration:none;color:#FF6600;font-weight:bold;}
+.outerbox .show2{width: 223px;border: 1px solid #7FB521;float:left;margin-bottom: 10px;margin-left: 5px;}
+.show2 img{ width:222px; height:67px;padding: 0px; margin-top:10px;} 
+.outerbox .show3{width: 338px;border: 1px solid #7FB521;float:left;margin-bottom: 10px;margin-left: 5px;}
+.show3 img{ width:335px; height:67px;padding: 0px; margin-top:10px; float:left;} 
+
+.outerbox .show4{width: 520px;float:left;margin-bottom: 10px;margin-left: 2px;}
+.show4 img{width: 128px; height: 40px;padding: 0px; float:left;} 
+.outerbox .show6{width: 124px;float:left; text-align:right;}
+
+.copyright{color: #FFF;font-size: 11px;font-weight: bold;text-transform: capitalize;text-align: left;width: auto; padding-left:5px; background-color:#7FB521;clear:both; text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

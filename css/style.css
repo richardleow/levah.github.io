@@ -1,0 +1,220 @@
+﻿ /* !CSS Document */
+@charset "utf-8";
+*{ margin:0px; padding:0px; border:0px;}
+html,body{ font:12px/1.8 Arial; color:#666; }
+body, div, dl, dt, dd, ul, ol, li,h1, h2, h3, h4, h5, h6, pre, code,form, fieldset, legend, input, button,p, blockquote, th, td {margin: 0;padding: 0;}
+a{ color:#666; }
+a:hover{ color:#0058b2;}
+ul{ list-style:none;}
+.floatl{float:left; width:900px;}
+.clear{ clear:both;}
+img {border: 0;}
+body{background-color:#7FB521;}
+#content{ background-color:#fff;width:900px; padding:0; margin:0 auto;font-size:11px; font-family: Arial, Helvetica, sans-serif; text-align:left;}
+
+/*______________!头部样式______________________*/
+#head {}  
+#menu{width:690px;list-style:none; overflow:hidden; height:22px; position:relative; top:38px;}
+#menu a{height:22px;float:left; display:inline; text-align:center; text-decoration:none;white-space:nowrap;background:url(../image/nav.gif) no-repeat -1px -22px;padding-left:5px;overflow:hidden;}
+#menu a span{ color:#fff; float:left; display:inline; padding:2px 10px 0px 5px;font-size:11px;background:url(../image/nav.gif) no-repeat right -22px;}
+#menu a:hover span{text-decoration:underline; cursor:pointer;color:#fff;}
+
+/*Home Aboutus 等上面导航菜单样式*/
+.navblock{clear:both; min-height:5px; background:#7FB521;font-weight:normal; color:#fff; line-height:20px; padding-left:10px;}
+.navblock span{ margin-left:5px; margin-right:5px;}      /*调整目录每项宽带*/
+.navblock a{color:#fff;text-decoration:none; font-size:11px;}
+.navblock a:hover{text-decoration:none;color:#FF6600;font-weight:bold;}  
+
+/*Home Aboutus 等下面导航菜单样式*/
+.navblock_menu_bottom{clear:both; min-height:5px; background:#7FB521;font-weight:normal; color:#fff; line-height:20px; margin-top:5px; padding-left:8px;border-bottom: 1px #fff solid;}
+.navblock_menu_bottom span{ margin-left:8px; margin-right:8px;}
+.navblock_menu_bottom a{color:#fff;text-decoration:none; font-size:11px;}
+.navblock_menu_bottom a:hover{text-decoration:none;color:#FF6600;font-weight:bold;}   
+
+/*中间内容显示样式*/
+.web{ width:889px; margin:0 auto; font-size:11px; font-family: Arial, Helvetica, sans-serif; line-height:normal;}
+
+/*非产品页中间右部内容显示样式*/
+.web_right{height:350 !important; height:100%; min-height:350px;}
+.web_right_img{float:left;}
+.web_right_text{ float:left; padding-top:10px; padding-left:10px;}
+.web_right_text img{}
+
+/*_________!中间左块子导航菜单模块的宽度和排列样式________*/
+#nav {float:left;width:178px; margin-top:1px;border: 1px solid #7FB521;border-radius: 10px 10px 10px 10px;}
+
+/*_________!左侧导航菜单样式webleft________*/
+.nav_title {line-height:40px; height:40px;background-color:#7FB521;border-radius: 8px 8px 0 0;}
+.nav_title a{text-decoration:none;}
+.nav_title h1{color:#fff;font-size:11px;text-align:center;}
+.nav_list {clear:both;padding:5px 0;}
+.nav_list ul li {font-size:11px;line-height:24px; margin-left:15px;}
+.nav_list a {color:#28609a;text-decoration:none;}
+.nav_list h2 {font-size:11px; font-weight:normal;color:#28609a;line-height:24px;background:url(../image/liline.gif) 0 bottom no-repeat;margin:0 4px;margin-left:10px;}
+.nav_list a:hover {color:#FF6600;font-weight:bold;}
+.nav_list ul {clear:both;margin:0 5px;}
+
+/*______________________!右侧主体内容样式___________________________*/
+.webright{ width:698px; margin-left:10px; margin-bottom:50px; float:left; overflow:hidden;} 
+
+/*______________________!面包屑导航_________________________________*/
+.nav_crumb{ height:18px; padding-left:0;}
+.nav_crumb_style{height:18px; padding-right:8px; margin-top:2px; border-bottom:#009900 solid 1px;}
+.nav_crumb_text{ height:18px; line-height:18px; color:#666666;}
+.nav_crumb_text span{ color:#666666; font-weight:normal; padding-left:5px;}
+.nav_crumb span a{color:#28609a;text-decoration:none;}
+.nav_crumb span a:hover{color:#FF6600;} 
+
+/*______________________!产品规格用途等_____________________________*/
+.product_content{ padding-left:0px; color:#666666;}
+.product_content p{ color:#666666;}
+.product_content p a{color:#28609a;text-decoration:underline;}
+.product_content p a:hover{color:#ff0000;text-decoration:none;} 
+.product_content_img_center{ text-align:center; padding-top:10px; padding-bottom:10px;} 
+.product_content p img{margin:0 10px;}
+
+.folding {height:12px; overflow:hidden;}
+.unfolding {}
+
+/*______________________!news页面样式_____________________________*/
+.news { margin-left:7px; margin-top:10px;}
+.news span {border-bottom: 0;color: #666;display: block;text-align: center;clear: both;margin-top:5px; margin-left: 400px;font-size: 11px; font-weight:normal;}
+.news a{color:#000066;}
+.news a:hover{ text-decoration:underline;} 
+.news ul li{ padding-bottom:5px; margin-bottom:5px;border-bottom: 1px dotted #EEEEEE;}
+
+/*______________________!payment页面样式_____________________________*/
+.payment span{ color:#3300FF;border-bottom: 1px dotted #808080;font-size:12px;font-weight:bold; display:block; margin-top:25px; margin-bottom:5px;}
+
+.shipping span{ color:#3300FF;border-bottom: 1px dotted #808080;font-size:12px;font-weight:bold; display:block; margin-top:25px; margin-bottom:5px; }
+
+.link span{color: #000;font-size: 12px;font-weight: bold;text-transform: capitalize;text-align: middle; width: auto;margin-top:15px;margin-left: 0;;margin-bottom:15px;border-bottom: 1px solid #009900;display: block;}
+.link p a:hover{ text-decoration:none;} 
+
+/*______________!产品列表每个产品模块_______________________*/
+.product_list{ float:left; width:100px; height:72 !important; height:100%; min-height:72px; margin:5px 5px;text-align:center;border:1px solid #fff;}
+.product_list_img img{ width:67px; height:48px;padding: 0px; margin-top:10px;} 
+.product_list_text{padding-top: 15px; background:#ffffff; padding-top:5px; padding-bottom:5px;border-top: 1px solid #3CB907;}
+.product_list h2{ font-size:11px; font-weight:normal; color:#000; display:block;}
+
+/*______________!中右模块下部的产品规格显示样式_______________________*/
+.outerbox {padding-top: 5px; padding-bottom:10px; margin-top:10px; margin-bottom:20px;}
+.outerbox a{ color:#0000CC;}
+.outerbox a:hover{ color:#0000CC; text-decoration:underline;}
+.outerbox span {color: #FFF;font-size: 11px;font-weight: bold;text-transform: capitalize;text-align: left;width: auto; padding-left:5px; margin:0px 0px; border-bottom: 1px solid #7FB521;display: block;background:url(../image/h1_250.gif) no-repeat 0px 0px;}
+.outerbox span a{ color:#FFF;}
+.outerbox span a:hover{ color:#FF6600; text-decoration:underline;}
+
+.outerbox th{color: #FFF;font-size: 11px;font-weight: bold;text-transform: capitalize;}  /*显示表格第一行的标题字为白色*/
+.outerbox p{ margin-top:0; margin-bottom:10px;margin-left:0px; padding-left:5px; padding-top:5px;}
+.outerbox img {margin-bottom: 10px;}
+.outerbox ul li {margin-bottom:10px; }
+
+.outerbox h1{color: #FFF;font-size: 11px;font-weight: bold;text-transform: capitalize;text-align: left;width: auto; padding-left:5px; margin:0px 0px; border-bottom: 1px solid #7FB521;display: block;background-color:#7FB521;}     /*background:url(../image/h1_Back.gif) repeat 0px 0px;*/
+.outerbox h1 a{ color:#FFF;}
+.outerbox h1 a:hover{ color:#FF6600; text-decoration:underline;}
+.outerbox .show1{width: 140px;border: 4px solid #7FB521;float:left;margin-bottom: 10px;margin-left: 20px; border-radius: 12px 12px 5px 5px;}  /*显示主页目录导航样式*/
+.show1 img{text-align:center;width:140px; height:68px; padding: 0px; margin-top:10px;} 
+.show1_title{ height:20px; line-height:20px; text-align:center; font-size: 11px;font-weight: bold;text-transform: capitalize; padding: 10px 0 10px 0; background-color:#FFFFFF;}
+.show1_title a{ font-size:13px;font-weight:bold;color:#FFF;}
+.show1_title a:hover{ text-decoration:none;color:#FF6600;font-size:14px;}
+.show1 h2{border-top: 4px solid #FFF;height:80; text-align:left; background-color:#FFFFFF; padding: 5px 2px 5px 2px;color: #666;font-size: 10px; font-style:normal;text-transform: capitalize;} 
+.show1 h2 a{ color:#28609a;font-size:9px; font-weight:normal; }
+.show1 h2 a:hover{text-decoration:none;color:#FF6600;font-weight:bold;}
+
+
+.outerbox .show2{width: 223px;border: 1px solid #7FB521;float:left;margin-bottom: 10px;margin-left: 5px;}
+.show2 img{ width:222px; height:67px;padding: 0px; margin-top:10px;} 
+.outerbox .show3{width: 338px;border: 1px solid #7FB521;float:left;margin-bottom: 10px;margin-left: 5px;}
+.show3 img{ width:335px; height:67px;padding: 0px; margin-top:10px;} 
+.outerbox .show6{width: 684px;border: 1px solid #7FB521;float:left;margin-bottom: 10px;margin-left: 5px;}
+.show6 img{ width:670px; height:67px;padding: 0px; margin-top:10px;} 
+
+/*______________!service样式_______________________*/
+.service_list {float:left; width:100px; height:72 !important; height:100%; min-height:72px; margin:5px 5px;text-align:center;border:1px solid #fff;}
+.service_list img{ padding: 0px; margin-top:10px;} 
+
+/*______________!faq样式_______________________*/
+.faq { margin-left:7px; margin-top:10px;}
+.faq h2{ font-size:11px; font-weight:bold; color:#000066;cursor: hand;}
+.faq p{margin-left: 10px; margin-bottom:10px;}
+.faq ul li{ padding-bottom:5px; margin-bottom:5px;border-bottom: 1px dotted #EEEEEE;}
+
+/*______________!设备列表模块_______________________*/
+.product_list2{ float:left; width:160px; height:72 !important; height:100%; min-height:72px; margin:5px 5px;text-align:center;border:1px solid #fff;}
+.product_list_img2 img{ width:160px; height:120px;padding: 0px; margin-top:10px;} 
+.product_list_text2{padding-top: 15px; background:#ffffff; padding-top:5px; padding-bottom:5px;border-top: 1px solid #3CB907;}
+.product_list2 h2{ font-size:11px; font-weight:normal; color:#000; display:block;}
+
+/*______________!产品大类图像列表分类模块_______________________*/
+.show_list{ float:left; width:23%; height:145 !important; height:100%; min-height:145px; margin:2px 2px;}
+
+/*______________!主页图片显示_______________________*/
+.main {padding-top: 5px; padding-bottom:10px; margin-top:10px; margin-bottom:20px;}
+.main span {color: #e00;font-size: 18px;font-weight: bold;text-transform: capitalize;text-align: left;width: auto;margin-top:0px;margin-left: 5px;;margin-bottom:10px;border-bottom: 1px solid #808080;}
+.show_list{ float:left; width:150px; height:112 !important; height:100%; min-height:112px; margin:5px; text-align:center;}
+.show_list_img img{ width:150px; height:112px;padding: 0px;} 
+
+/*______________________!sitemap_____________________________*/
+.col2 {width:43%;padding:3%;float:left}
+.col2 h2{font-size:11px; color:#FFFFFF; padding-left:10px; background:url(../image/h1_250.gif) no-repeat 0px 0px; overflow:hidden;}
+.col2 ul{padding-left:20px; color:#666666; padding-top:5px;}
+.col2 ul li{padding-left:0px; padding-bottom:5px; color:#666666;list-style-image:url(../image/c.gif);}
+.col2 a:hover{color:#ff6600;text-decoration:underline;} 
+
+.col1 {width:43%;padding:3%;float:left}
+.col1 a:hover{color:#FF6600;text-decoration:underline;}
+.col1 h2{font-size:14px; color:#000066; padding-left:0;overflow:hidden; padding-bottom: 5px;margin-bottom:5px;border-bottom: 1px dotted #808080;display: block;}
+.col1 ul{padding-left:20px; color:#666666; padding-bottom:20px;}
+.col1 ul li{padding-left:0px; padding-top:5px; color:#666666;list-style-image:url(../image/c.gif);}
+
+/*______________________!每页产品列表的格式设置_____________________________*/
+.footcol {width:100%; padding-left:0px; padding-right:5px; }
+.footcol a{color:#7FB521;text-decoration:none;}
+.footcol a:hover{text-decoration:none;color:#FF6600;font-weight:bold;}
+
+.footcol ul li{border-bottom: 1px dotted #EEEEEE;}
+.footcol #footcol_agriculture {width:22%;float:left;}
+.footcol #footcol_protective {width:18%; float:left}
+.footcol #footcol_fence {width:20%; float:left}
+.footcol #footcol_pet {width:20%; float:left}
+.footcol #footcol_equine {width:20%; float:left}    /*!___width:20%____*/
+
+/*______________________!每页产品列表的首标题设置____________________________*/
+.footcol #footcol_agriculture_first, 
+.footcol #footcol_fence_first, 
+.footcol #footcol_garden_first, 
+.footcol #footcol_pet_first,
+.footcol #footcol_protective_first, 
+.footcol #footcol_equine_first,
+.footcol #footcol_sport_first{clear:both; min-height:5px; background:#7FB521;font-weight:normal; color:#fff; line-height:20px; margin-top:10px; padding-left:0px;border-bottom: 1px #fff solid;}
+
+.footcol #footcol_agriculture_first a, 
+#footcol_fence_first a, 
+#footcol_garden_first a, 
+#footcol_pet_first a,
+#footcol_protective_first a, 
+#footcol_equine_first a,
+#footcol_sport_first a{color:#fff;text-decoration:none; font-size:11px;}
+
+.footcol #footcol_agriculture_first a:hover, #footcol_fence_first a:hover, #footcol_garden_first a:hover, #footcol_pet_first a:hover,#footcol_protective_first a:hover, #footcol_equine_first a:hover,#footcol_sport_first a:hover{text-decoration:none;color:#FF6600;font-weight:bold;}
+
+.footcol #footcol_agriculture ul li{padding-left:10px;}  /*!___第一列Agriculture向右缩进对齐____*/
+
+/*______________________!产品规格和订货编号表格_____________________________*/
+.product_content table{border-collapse:collapse;}
+.product_content th{height:20px; border: 1px solid #3366CC; background-color:#888888; font-weight:bold;}
+.product_content th,td{text-align: center; border: 1px solid #CCCCCC;vertical-align:middle;padding:1px;}
+.product_content tr.odd{}
+.product_content tr.even{background-color:#EEEEEE;} 
+.product_content tr.title{height:20px; background-color:#888888; color:#FFFFFF;font-weight:bold; font-size:12px; text-align:left;}
+.product_content tr.outstanding{background-color:#999999; color:#FFFFFF;}
+.product_content a{text-decoration:none;}
+.product_content a:hover {color:#ff6600;text-decoration:underline;}
+
+/*__________!页脚样式________________ */
+.whyLeft{min-height:10px;margin-right:10px;padding-bottom:5px;padding-right:10px;}
+.whyLeft a{font-weight:normal; color:#7FB521; text-decoration:none;}
+.whyLeft a:hover{color:#f00; text-decoration:underline;}
+.whyLeft div{color:#666666;font-size:11px;margin-left:12px;margin-bottom:2px;}
+.footer_copyright{text-align: center;margin-top: 5px; margin-left: 5px;line-height: 14px;}
